@@ -1,0 +1,43 @@
+body{
+    column-count: 2;
+}
+
+/* Header Section */
+header,#welcome{
+    text-align: center;
+    column-span:all;
+    
+}
+#header_text, #div1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#content1,footer{
+    display: none;
+}
+#table0{
+    width: 60%;
+    break-inside: avoid;
+    column-span:all;
+    margin:auto;
+    
+}
+#table0 > h2,#table0 > h4{
+    text-align: center;
+}
+#table0 > table{
+    width:100%;
+}
+.description {
+    text-align: left;
+}
+  
+.quantity {
+    text-align: right;
+
+}
+#undo{
+    display: block;
+    text-align: center;
+}

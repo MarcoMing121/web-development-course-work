@@ -1,0 +1,80 @@
+
+#body1{
+    column-span:all;
+    column-count: 2;
+}
+
+/* Navigation Section */
+#info{
+    width:80%;
+    break-inside: avoid;
+    border: 1px solid black;
+
+}
+#info img{
+    max-width: 100%;
+    height: auto;
+    animation-name: Enlarge;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+}
+
+@keyframes Enlarge{
+    from{
+        max-width: 0%;
+    }
+    to{
+        max-width: 100%;
+    }
+}
+
+/* Content Section Top Block*/
+#promotion_information{
+    width:120%;
+    break-inside: avoid;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+}
+#promotion_information video,#promotion_information #message{
+    max-width: 95%;
+    height: auto;
+    display: inline-block;
+}
+
+/* Content Section Top Block*/
+#form{
+    width:120%;
+    break-inside: avoid;
+    float: right;
+
+}
+#reservation_form{
+    text-align: center;
+}
+#reservation_form > legend{
+    text-align: left;
+}
+.form_content{
+    display: inline-block;
+    width:50%;
+    height:10%;
+}
+.form_content > label{
+    float: left;
+}
+.form_content > input,.form_content > select{
+    float: right;
+}
+
+#reservation_form > input{
+    width: 30%;
+    background-color: #0072c6;
+    color: #fff;
+}
+#reservation_form > input:hover{
+    background-color: #005ea2;
+}
+#error_msg{
+    text-align: center;
+}
